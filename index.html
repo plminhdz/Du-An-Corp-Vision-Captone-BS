@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/duyminh.css">
     <link rel="stylesheet" href="./css/mimi.css">
@@ -28,8 +30,103 @@
     <section class="aboutUs"></section>
     <section class="challengers"></section>
     <section class="ourServices"></section>
-    <section class="projects"></section>
-    <section class="process"></section>
+    <section class="Gallery corp-section">
+        <div class="container">
+            <div class="title">
+                <p>OUR GALLERY</p>
+                <h3>Successful projects we've done</h3>
+            </div>
+            <div class="gallery__content">
+                <div class="gallery__items">
+                    <img src="./img/c1.jpg" alt="">
+                    <a href="./img/c1.jpg" data-fancybox="gallery" data-caption="Project 1">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 1</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__items">
+                    <img src="./img/c2.jpg" alt="">
+                    <a href="./img/c2.jpg" data-fancybox="gallery" data-caption="Project 2">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 2</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__items">
+                    <img src="./img/c3.jpg" alt="">
+                    <a href="./img/c3.jpg" data-fancybox="gallery" data-caption="Project 3">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 3</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__items">
+                    <img src="./img/c4.jpg" alt="">
+                    <a href="./img/c4.jpg" data-fancybox="gallery" data-caption="Project 4">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 4</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__items">
+                    <img src="./img/c5.jpg" alt="">
+                    <a href="./img/c5.jpg" data-fancybox="gallery" data-caption="Project 5">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 5</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__items">
+                    <img src="./img/c6.jpg" alt="">
+                    <a href="./img/c6.jpg" data-fancybox="gallery" data-caption="Project 6">
+                        <div class="gallery__overlay">
+                            <div class="gallery__text">
+                                <h3>Project 6</h3>
+                                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery__brand">
+                <div class="gallery__logo">
+                    <img src="./img/brand1.png" alt="">
+                </div>
+                <div class="gallery__logo">
+                    <img src="./img/brand6.png" alt="">
+                </div>
+                <div class="gallery__logo">
+                    <img src="./img/brand3.png" alt="">
+                </div>
+                <div class="gallery__logo">
+                    <img src="./img/brand4.png" alt="">
+                </div>
+                <div class="gallery__logo">
+                    <img src="./img/brand5.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="process">
+        
+    </section>
     <section class="feedback"></section>
     <section class="news"></section>
     <footer></footer>
@@ -41,6 +138,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        });
+    </script>
 </body>
 
 </html>
