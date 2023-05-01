@@ -696,6 +696,7 @@ header.nav__fixed {
     #my-carousel .carousel-caption h1 {
         font-size: 55px;
     }
+
 }
 
 @media (max-width: 1080px) {
@@ -714,8 +715,14 @@ header.nav__fixed {
         width: 100%;
         padding: 20px 0 0px;
     }
-    header{
+
+    header {
         height: auto;
+    }
+
+    .icon-close.change-icon-close {
+        left: 95%;
+        top: 20%
     }
 
     #my-carousel .carousel-caption h1 {
@@ -793,6 +800,11 @@ header.nav__fixed {
 }
 
 @media (max-width: 568px) {
+    .icon-close.change-icon-close {
+        left: 90%;
+        top: 20%
+    }
+
     #my-carousel .carousel-caption h1 {
         font-size: 40px;
     }
@@ -824,12 +836,14 @@ header.nav__fixed {
         padding: 20px 0 0px;
     }
 }
+
 @media (max-width: 320px) {
-    .challen_right{
+    .challen_right {
         display: flex;
         flex-wrap: wrap;
     }
-    .challen__item{
+
+    .challen__item {
         width: 100%;
     }
 }
